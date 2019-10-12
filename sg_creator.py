@@ -4,8 +4,8 @@ import os, sys
 import pickle
 import shutil
 
-#csv_filename = input('Name of csv filename with ips: ')
-csv_filename = 'random_ips.csv'
+csv_filename = input('Name of csv filename with ips: ')
+# csv_filename = 'random_ips.csv'
 
 existing_sg_filename = "existing_sg_dict.pkl"
 http_tf_filename = 'create_sg_http.tf'
